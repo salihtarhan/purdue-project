@@ -1,16 +1,16 @@
 - hosts: localhost
   become: yes
   tasks:
-        - name: who is user
-          command: whoami
-          register: out
-        - debug:
-              var: out
+       # - name: who is user
+        #  command: whoami
+         # register: out
+        #- debug:
+         #     var: out
 
         - name: Build an image and push it to a private repo
           community.docker.docker_image:
               build:
-                  path: "/root"
+                  path: "/home/edureka/Desktop"
               name: docker.io/salvathshaik/abctechnologies
               #tag: test
               push: true
