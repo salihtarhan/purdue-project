@@ -1,7 +1,7 @@
 <html>
 <body>
 <h2>Welcome to ABC technologies</h2>
-<h3>This is retail portal</h3>
+<h3>This is retail portal Chanhes added for grade Project on 25 December 2023</h3>
 <button name="Add Product" value="Add Product" type="button" onclick="addProduct()">Add Product</button>  
 <script>  
 function addProduct(){  
